@@ -2,7 +2,7 @@
 import React from 'react';
 
 interface SlidingImagesProps {
-    images: string[]; // Define the type for the images prop
+    images: string[]; 
   }
 
 const SlidingImages: React.FC<SlidingImagesProps>  = ({ images }) => {
