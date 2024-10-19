@@ -1,7 +1,11 @@
 // components/SlidingImages.js
 import React from 'react';
 
-const SlidingImages = ({ images }: any) => {
+interface SlidingImagesProps {
+    images: string[]; // Define the type for the images prop
+  }
+
+const SlidingImages: React.FC<SlidingImagesProps>  = ({ images }) => {
   return (
     <div className="overflow-hidden relative whitespace-nowrap">
       <div className="animate-slide flex gap-[50px]">

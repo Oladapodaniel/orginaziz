@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
-import SlidingText from "./slidingtext"
 import SlidingImages from "./slidingimage";
 
 
@@ -10,7 +9,6 @@ export default function Hero() {
         '/logo_2.png',
         '/logo_3.png',
         '/logo_4.png',
-        // Add more images as needed
     ];
     return (
         <div className="container mx-auto py-10">
